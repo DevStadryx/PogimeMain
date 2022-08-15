@@ -105,7 +105,11 @@ Section2:NewButton("Proxima Hub","Infinite Money & More", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/GunSimulator.lua'))()
 
 end)
-
+local Section2 = Tab:NewSection("Elimination Tower")
+Section2:NewButton("Slaming Hub","Auto Win", function()
+    print("Executing Slaming")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Elimination%20Tower/EliminationTowerGui"))()
+end)
 
 
 
